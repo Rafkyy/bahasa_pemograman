@@ -11,13 +11,7 @@ int main(){
     cout << a[3];
     cout << a[4];
 
-
-
     return 0;
-
-
-
-
 
 }
 
