@@ -1,0 +1,22 @@
+@startuml tugas1
+
+start
+:Display MENU;
+repeat
+  :Input pilihan;
+  if (pilihan == 1) then (true)
+    :Pilih Menu Makanan;
+  else (false)
+    if (pilihan == 2) then (true)
+    :Pilih Menu Minuman;
+    else (false)
+      :Pilihan Salah;
+    endif
+  endif
+    :Menu yang dipilih;
+    :Total Harga Menu yang dipilih;
+repeat while (pilihan != 2)
+:Exit;
+stop
+
+@enduml
