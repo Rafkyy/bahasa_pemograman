@@ -3,12 +3,19 @@
 start
 :Display MENU;
 repeat
-  :Input pilihan;
+  :Input pilihan
+  1.Makanan
+  2.Minuman;
   if (pilihan == 1) then (true)
-    :Pilih Menu Makanan;
+    :Pilih Menu Makanan
+    1.Nasi goreng
+    2.Mie goreng
+    3.Ayam Goreng;
   else (false)
     if (pilihan == 2) then (true)
-    :Pilih Menu Minuman;
+    :Pilih Menu Minuman
+    1. Es teh
+    2. Es jeruk;
     else (false)
       :Pilihan Salah;
     endif
