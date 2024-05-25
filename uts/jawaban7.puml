@@ -9,25 +9,22 @@ start
 
 :Masukan Menu yang ingin dipilih;
 
-if (pilihan >= 1 && pilihan <= 4) {
-    cout << "Masukkan angka Pertama: ";
-    cin >> num1 ;
-    cout << "Masukkan angka Kedua: ";
-    cin >> num2 ;
-    }
-endif
 switch (Pilihan)
     case ( Pilih = 1 )
-        :Masukan 2 angka;
+        :Masukan angka pertama;
+        :Masukan angka kedua;
         :Hasil Pertambahan;
     case ( Pilih = 2 ) 
-        :Masukan 2 angka;á
+        :Masukan angka pertama;
+        :Masukan angka kedua;
         :Hasil Penguragan;
     case ( Pilih = 3 )
-        :Masukan 2 angka;
+        :Masukan angka pertama;
+        :Masukan angka kedua;
         :Hasil Perkalian;
     case ( Pilih = 4 )
-        :Masukan 2 angka;
+        :Masukan angka pertama;
+        :Masukan angka kedua;
         :Hasil Pembagian;
 endswitch
 

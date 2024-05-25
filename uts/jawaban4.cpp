@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int tahun_lahir;
-    int tahun_sekarang = 2024;  // Misalkan tahun sekarang adalah 2024
+    int tahun_sekarang = 2024;
 
     cout << "Masukkan tahun lahir kalian: ";
     cin >> tahun_lahir;
