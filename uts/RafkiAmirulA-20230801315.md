@@ -2,6 +2,7 @@
  1. Jelaskan secara singkat apa itu paradigma dalam Bahasa Pemograman?
 # JAWABAN :
 **Bahasa pemrograman** adalah alat yang digunakan oleh programmer (pengembang perangkat lunak) untuk menulis kode yang kemudian dapat dieksekusi oleh komputer untuk melakukan tugas tertentu. Bahasa pemrograman menyediakan sintaks dan struktur yang memungkinkan manusia untuk memberikan instruksi kepada komputer dalam bentuk yang dapat dipahami dan dijalankan oleh mesin.
+
 **Paradigma** dalam bahasa pemrograman adalah pendekatan atau gaya pemrograman yang menyediakan serangkaian konsep dan praktik untuk menulis kode program.
 
 # SOAL 2
