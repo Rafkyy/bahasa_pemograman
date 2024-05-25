@@ -37,7 +37,7 @@ menu:
     cout << "Masukkan nomor minuman yang dipilih: ";
     cin >> pilihanMinuman;
     break;
-
+    
     default:
     cout << "Pilihan Salah" << endl;
     break;

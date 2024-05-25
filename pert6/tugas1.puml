@@ -6,6 +6,7 @@ repeat
   :Input pilihan
   1.Makanan
   2.Minuman;
+
   if (pilihan == 1) then (true)
     :Pilih Menu Makanan
     1.Nasi goreng
@@ -20,7 +21,7 @@ repeat
       :Pilihan Salah;
     endif
   endif
-    :Menu yang dipilih;
+    :Menu Pilihan Anda;
     :Total Harga Menu yang dipilih;
 repeat while (pilihan != 2)
 :Exit;

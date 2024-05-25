@@ -1,0 +1,35 @@
+@startuml jawaban7
+
+start
+:Menu :
+1.Tambah
+1.Kurang
+3.kali
+4.Bagi;
+
+:Masukan Menu yang ingin dipilih;
+
+if (pilihan >= 1 && pilihan <= 4) {
+    cout << "Masukkan angka Pertama: ";
+    cin >> num1 ;
+    cout << "Masukkan angka Kedua: ";
+    cin >> num2 ;
+    }
+endif
+switch (Pilihan)
+    case ( Pilih = 1 )
+        :Masukan 2 angka;
+        :Hasil Pertambahan;
+    case ( Pilih = 2 ) 
+        :Masukan 2 angka;á
+        :Hasil Penguragan;
+    case ( Pilih = 3 )
+        :Masukan 2 angka;
+        :Hasil Perkalian;
+    case ( Pilih = 4 )
+        :Masukan 2 angka;
+        :Hasil Pembagian;
+endswitch
+
+stop
+@enduml
